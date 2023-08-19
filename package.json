@@ -1,0 +1,40 @@
+{
+  "name": "react-testing",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "DEBUG=eslint:cli-engine eslint . --ext js,jsx,ts,tsx --report-unused-disable-directives --max-warnings 0 --fix",
+    "preview": "vite preview",
+    "format": "prettier . --write",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@macaron-css/core": "^1.2.0",
+    "@macaron-css/react": "^1.4.0",
+    "@macaron-css/vite": "^1.4.3",
+    "@testing-library/jest-dom": "^6.0.1",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@types/react": "^18.2.20",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.4.0",
+    "@typescript-eslint/parser": "^6.4.0",
+    "@vitejs/plugin-react": "^4.0.4",
+    "eslint": "^8.47.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "jsdom": "^22.1.0",
+    "prettier": "^3.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.9",
+    "vitest": "^0.34.2"
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}
